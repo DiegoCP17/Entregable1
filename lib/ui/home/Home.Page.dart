@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
         body: ListView(
           children: <Widget>[
             const SizedBox(
-              height: 50,
+              height: 30,
             ), //sirve para agregar espacios entre los widgets
             ListTile(
               onTap: () {
@@ -27,6 +27,17 @@ class _HomePageState extends State<HomePage> {
               }, // sirve para hacer click en cualquier elemento
               leading: Icon(Icons.people),
               title: const Center(child: Text("Informacion de Contacto")),
+              trailing: const Icon(Icons.keyboard_arrow_right),
+            ),
+            const SizedBox(
+              height: 15,
+            ),
+            ListTile(
+              onTap: () {
+                Navigator.pushNamed(context, 'imagenes');
+              },
+              leading: Icon(Icons.image_search),
+              title: const Center(child: Text("Nuestro Trabajo")),
               trailing: const Icon(Icons.keyboard_arrow_right),
             ),
           ],

@@ -22,7 +22,8 @@ class MyApp extends StatelessWidget {
       initialRoute: "home",
       routes: {
         'home': (BuildContext context) => HomePage(),
-        'botones': (BuildContext context) => BotonesPage()
+        'botones': (BuildContext context) => BotonesPage(),
+        'imagenes': (BuildContext context) => BotonesPage(),
       },
     );
   }
