@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reparacionesjo/ui/home/ImagePage.dart';
 import 'package:reparacionesjo/ui/home/botones_pages.dart';
 import 'package:reparacionesjo/ui/home/Home.Page.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'home': (BuildContext context) => HomePage(),
         'botones': (BuildContext context) => BotonesPage(),
-        'imagenes': (BuildContext context) => BotonesPage(),
+        'imagenes': (BuildContext context) => ImagenPage(),
       },
     );
   }

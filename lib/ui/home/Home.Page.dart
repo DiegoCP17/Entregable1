@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
               onTap: () {
                 Navigator.pushNamed(context, 'imagenes');
               },
-              leading: Icon(Icons.image_search),
+              leading: const Icon(Icons.image_search),
               title: const Center(child: Text("Nuestro Trabajo")),
               trailing: const Icon(Icons.keyboard_arrow_right),
             ),

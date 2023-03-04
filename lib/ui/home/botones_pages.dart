@@ -13,7 +13,7 @@ class BotonesPage extends StatelessWidget {
         // ignore: prefer_const_literals_to_create_immutables
         children: [
           const SizedBox(
-            height: 15,
+            height: 10,
           ),
           const Center(
             child: Card(
@@ -33,7 +33,7 @@ class BotonesPage extends StatelessWidget {
             ),
           ),
           const SizedBox(
-            height: 25,
+            height: 10,
           ),
           const Center(
             child: Card(
@@ -53,7 +53,7 @@ class BotonesPage extends StatelessWidget {
             ),
           ),
           const SizedBox(
-            height: 25,
+            height: 10,
           ),
           const Center(
             child: Card(
@@ -73,7 +73,7 @@ class BotonesPage extends StatelessWidget {
             ),
           ),
           const SizedBox(
-            height: 25,
+            height: 10,
           ),
           const Center(
             child: Card(
