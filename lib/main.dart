@@ -3,8 +3,6 @@ import 'package:reparacionesjo/ui/home/ImagePage.dart';
 import 'package:reparacionesjo/ui/home/botones_pages.dart';
 import 'package:reparacionesjo/ui/home/Home.Page.dart';
 
-import 'ui/home/Home.Page.dart';
-
 void main() {
   runApp(const MyApp());
 }
